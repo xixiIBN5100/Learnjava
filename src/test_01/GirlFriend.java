@@ -6,6 +6,7 @@ public class GirlFriend {
 
     public void sayHellow(){
         System.out.println("hello word");
+
     }
 
     public void sayGoofbye(){
