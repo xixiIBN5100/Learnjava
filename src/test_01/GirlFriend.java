@@ -1,15 +1,51 @@
 package test_01;
 
 public class GirlFriend {
-    String name;
-    int age;
+    private String name;
+    private int age;
 
-    public void sayHellow(){
-        System.out.println("hello word");
+
+    public GirlFriend() {
     }
 
-    public void sayGoofbye(){
-        System.out.println("Goodbye");
+    public GirlFriend(String name, int age) {
+        this.name = name;
+        this.age = age;
     }
 
+    /**
+     * 获取
+     * @return name
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * 设置
+     * @param name
+     */
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    /**
+     * 获取
+     * @return age
+     */
+    public int getAge() {
+        return age;
+    }
+
+    /**
+     * 设置
+     * @param age
+     */
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String toString() {
+        return "GirlFriend{name = " + name + ", age = " + age + "}";
+    }
 }
